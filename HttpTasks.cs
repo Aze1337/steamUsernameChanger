@@ -25,7 +25,7 @@ namespace ConsoleApp2
             while (true)
             {
                 GetId();
-                System.Threading.Thread.Sleep(60000); // THIS IS WHERE YOU CHANGE DELAY. IT'S IN ms. 
+                System.Threading.Thread.Sleep(5000); // THIS IS WHERE YOU CHANGE DELAY. IT'S IN ms. 
             }
         }
 

@@ -10,6 +10,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Console.Title = "Steam Username Changer Bot";
             BrowserPart.Login();
             HttpTasks.DoRun();
         }
